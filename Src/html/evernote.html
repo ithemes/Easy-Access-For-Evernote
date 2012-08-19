@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Easy Access for Evernote</title>
+        <script type="text/javascript" src="/js/evernote.js"> </script>
+        <script type="text/javascript" src="/js/main.js"> </script>
+        <link type="text/css" rel="stylesheet" media="all" href="/css/style.css" />
+    </head>
+    <body onload="getNoteFrame()">
+        <div id="content">
+        </div>
+		<div id="footer">
+        	<span class="link" onclick="openNotes();">New window <img src="/images/external.png" alt="Open tasks in a new window" /></span> | <span class="link" onclick="chrome.tabs.create({url:chrome.extension.getURL('/html/options.html')});">Options</span> | <span class="link" onclick="closeNotes();">Close</span>
+        </div>
+    </body>
+</html>

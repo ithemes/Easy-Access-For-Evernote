@@ -1,0 +1,15 @@
+{
+	"name": "Easy Access for Evernote",
+	"version": "2.0",
+	"description": "Use Evernote from within your Browser.",
+	"background_page": "/html/background.html",
+	"browser_action": {
+		"default_icon": "/images/icon.png",
+		"default_popup": "/html/evernote.html",
+		"default_title": ""
+	},
+	"icons": { "128": "/images/icon.png" },
+	"permissions": [ "tabs"],
+	"options_page": "/html/options.html",
+	"update_url": "http://clients2.google.com/service/update2/crx"
+}
